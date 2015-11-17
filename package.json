@@ -1,0 +1,32 @@
+{
+  "name": "language-monitor",
+  "version": "1.0.0",
+  "description": "Nodejs language monitor library using languagedetect and unicode",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "author": {
+    "name": "wzbg",
+    "email": "z3530515@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wzbg/language-monitor"
+  },
+  "bugs": {
+    "url": "https://github.com/wzbg/language-monitor/issues"
+  },
+  "homepage": "https://github.com/wzbg/language-monitor#readme",
+  "keywords": [
+    "language",
+    "detection",
+    "monitor",
+    "unicode",
+    "n-gram"
+  ],
+  "dependencies": {
+    "languagedetect": "^1.1.1"
+  }
+}
