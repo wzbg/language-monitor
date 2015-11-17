@@ -30,5 +30,10 @@ module.exports = function (sample, limit) {
     if (count) languages.push([langcode, count/sample.length]);
   }
   languages.sort((a, b) => { return b[1] - a[1] });
-  return languages;
+  var result = [];
+  for (var language of languages) {
+    if (result.length == limit) break;
+    result.push({ code: language[0], rate: language[1] });
+  }
+  return result;
 };

@@ -1,6 +1,6 @@
 {
   "name": "language-monitor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Nodejs language monitor library using languagedetect and unicode",
   "main": "index.js",
   "scripts": {
