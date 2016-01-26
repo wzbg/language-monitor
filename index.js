@@ -2,7 +2,7 @@
 * @Author: zyc
 * @Date:   2015-12-06 03:17:09
 * @Last Modified by:   zyc
-* @Last Modified time: 2016-01-26 14:15:23
+* @Last Modified time: 2016-01-26 14:22:14
 */
 'use strict'
 
@@ -47,7 +47,7 @@ module.exports = (sample, limit) => {
 }
 
 const detectLanguage = (sample, limit) => {
-  let languages = []//lngDetector.detect(sample, limit)
+  let languages = lngDetector.detect(sample, limit)
   let length = sample.length, count = 1
   while (!languages.length) {
     count *= 2
