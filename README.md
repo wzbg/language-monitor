@@ -12,7 +12,7 @@ $ npm install --save language-monitor
 ## Usage
 
 ```js
-var languageMonitor = require('./index');
+const languageMonitor = require('language-monitor');
 
 console.log(languageMonitor('为languagedetect添加中にほん한语言检测'));
 
